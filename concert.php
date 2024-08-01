@@ -61,7 +61,7 @@ https://www.tooplate.com/view/2125-artxibition
                 </div>
                 <div class="col-lg-6 col-sm-6">
                     <div class="text-button">
-                        <a href="login.html">로그인<i class="fa fa-arrow-right"></i></a>
+                        <a href="login.php">로그인<i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>

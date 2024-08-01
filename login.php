@@ -21,7 +21,7 @@
                 <div class="card-wrapper">
                     <div class="brand">
                         <a href="index.php" class="logo">
-                            <img src="assets/images/intra.png" alt="logo">
+                            <img src="assets/images/intra.PNG" alt="logo">
                     </div>
                     <div class="card fat">
                         <div class="card-body">
@@ -60,7 +60,7 @@
                                     </button>
                                 </div>
                                 <div class="mt-4 text-center">
-                                    아이디가 없으신가요? <a href="register.html">회원 가입</a>
+                                    아이디가 없으신가요? <a href="register.php">회원 가입</a>
                                 </div>
                             </form>
 
@@ -87,7 +87,7 @@
                                 $password = $_POST['password'];
 
                                 // 사용자 정보 조회
-                                $sql = "SELECT id, name, password FROM Users WHERE username = ?";
+                                $sql = "SELECT id, name, password FROM users WHERE username = ?";
                                 $stmt = $conn->prepare($sql);
                                 $stmt->bind_param("s", $email);
                                 $stmt->execute();

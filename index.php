@@ -122,14 +122,14 @@ $user_name = $is_logged_in ? $_SESSION['user_name'] : '';
             <div class="row">
                 <div class="col-lg-12">
                     <div class="owl-show-events owl-carousel">
-                        <div class="item"><a href="event-details.html"><img src="assets/images/p1.png" alt="" /></a></div>
-                        <div class="item"><a href="event-details.html"><img src="assets/images/p2.png" alt="" /></a></div>
-                        <div class="item"><a href="event-details.html"><img src="assets/images/p3.png" alt="" /></a></div>
-                        <div class="item"><a href="event-details.html"><img src="assets/images/p4.png" alt="" /></a></div>
-                        <div class="item"><a href="event-details.html"><img src="assets/images/p5.png" alt="" /></a></div>
-                        <div class="item"><a href="event-details.html"><img src="assets/images/p6.png" alt="" /></a></div>
+                        <div class="item"><a href="event-details.html"><img src="assets/images/p1.PNG" alt="" /></a></div>
+                        <div class="item"><a href="event-details.html"><img src="assets/images/p2.PNG" alt="" /></a></div>
+                        <div class="item"><a href="event-details.html"><img src="assets/images/p3.PNG" alt="" /></a></div>
+                        <div class="item"><a href="event-details.html"><img src="assets/images/p4.PNG" alt="" /></a></div>
+                        <div class="item"><a href="event-details.html"><img src="assets/images/p5.PNG" alt="" /></a></div>
+                        <div class="item"><a href="event-details.html"><img src="assets/images/p6.PNG" alt="" /></a></div>
                         <div class="item"><a href="event-details.html"><img src="assets/images/p7.png" alt="" /></a></div>
-                        <div class="item"><a href="event-details.html"><img src="assets/images/p8.png" alt="" /></a></div>
+                        <div class="item"><a href="event-details.html"><img src="assets/images/p8.PNG" alt="" /></a></div>
                     </div>
                 </div>
             </div>

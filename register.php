@@ -16,7 +16,7 @@
                 <div class="card-wrapper">
                     <div class="brand">
                         <a href="index.php" class="logo">
-                            <img src="assets/images/intra.png" alt="logo">
+                            <img src="assets/images/intra.PNG" alt="logo">
                         </a>
                     </div>
                     <div class="card fat">
@@ -70,9 +70,9 @@
                             <?php
                             if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                 // 데이터베이스 연결
-                                $servername = "localhost";
-                                $username = "root"; // MySQL 사용자명
-                                $password = "tjrwls0802"; // MySQL 비밀번호
+                                $servername = "4e31b09b-acff-47d0-927a-244edce05073.internal.kr1.mysql.rds.nhncloudservice.com";
+                                $username = "user"; // MySQL 사용자명
+                                $password = "1234"; // MySQL 비밀번호
                                 $dbname = "ticket";
 
                                 // 연결 생성
@@ -89,7 +89,7 @@
                                 $password = password_hash($_POST['password'], PASSWORD_BCRYPT);
 
                                 // SQL 쿼리
-                                $sql = "INSERT INTO Users (name, username, password) VALUES (?, ?, ?)";
+                                $sql = "INSERT INTO users (name, username, password) VALUES (?, ?, ?)";
 
                                 // Prepare and bind
                                 $stmt = $conn->prepare($sql);
