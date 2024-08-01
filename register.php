@@ -70,9 +70,9 @@
                             <?php
                             if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                 // 데이터베이스 연결
-                                $servername = "4e31b09b-acff-47d0-927a-244edce05073.internal.kr1.mysql.rds.nhncloudservice.com";
-                                $username = "user"; // MySQL 사용자명
-                                $password = "1234"; // MySQL 비밀번호
+                                $servername = "localhost";
+                                $username = "root"; // MySQL 사용자명
+                                $password = "tjrwls0802"; // MySQL 비밀번호
                                 $dbname = "ticket";
 
                                 // 연결 생성
