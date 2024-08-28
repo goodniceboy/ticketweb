@@ -42,7 +42,7 @@ $user_name = $is_logged_in ? $_SESSION['user_name'] : '';
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-sm-6">
-                    <span>티켓팅 사이트 입니다!</span>
+                    <span>티켓팅 사이트</span>
                 </div>
                 <div class="col-lg-6 col-sm-6">
                     <div class="text-button">
